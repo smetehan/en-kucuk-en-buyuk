@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class project {
+    public static void main(String[] args) {
+        Scanner inp = new Scanner(System.in);
+        int n, m = 1, k = 0, i = 0, l=0;
+        int max = 0, min = 0;
+        System.out.print("Kac tane sayi gireceksiniz :");
+        n = inp.nextInt();
+
+        while (m <= n) {
+            System.out.print(m + ".sayiyi giriniz :");
+            k = inp.nextInt();
+
+            m++;
+
+            if (k >0) {
+                for (i = 1; i <= k; i++) {
+
+                    max = i;
+                }
+
+                }
+
+
+                else if (k < 0) {
+                    for (int j = 0; j >= k; j--) {
+                        min = j;
+                    }
+
+                }
+
+
+
+
+
+
+
+        }
+        System.out.println("en kucuk sayi :" + min);
+        System.out.print("en buyuk sayi :" + max);
+    }}
+
+
